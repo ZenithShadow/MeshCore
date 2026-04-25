@@ -30,7 +30,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: companion-firmwares
-          path: out
+          path: .pio/build/ProMicro_companion_radio_ble/firmware.uf2
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
